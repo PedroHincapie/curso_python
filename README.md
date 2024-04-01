@@ -51,6 +51,44 @@ my_city('Bogota')
 my_city()
 ```
 
+### Zen Python
+```
+import this
+```
+Esta es la filosofia con la que cronstruye y construyo Python
+
+### Set Python
+
+Este es otro tipo de dato en Python, tenemos ahora a los conjuntos, que son un tipo de datos que nos permite:
+
+- No tienen un orden
+- No permite duplicaco como los diccionarios
+- Puedes modificar
+
+Cuando se dice que no tiene un orden, es por que cada vez que se ejecuta el print de este tipo de clases set, el valor itera por cada, asi las cosas no existe un orden dentro de este
+
+```
+set_paises = {
+    'Colombia', 'Mexico', 'Argentina'
+}
+
+print(set_paises)
+
+```
+Ademas cabe mencionar que en un set un 1 es igual a True por lo que si los dos estan en un set solo quedara True y esto aplica para el False y el 0 pero en esta ocacion no queda el False, queda el 0
+
+- Len para los set
+```
+# Ejercicio del False == 0
+thisset = {0, "banana", "cherry", False,  2}
+
+print(thisset)
+
+print(len(thisset))
+
+```
+
+
 
 ### Lambda in Python
 
