@@ -43,6 +43,18 @@ print(len(thisset))
 # Tipo
 print(type(thisset))
 
+print('**' * 10)
+
+# Conocer si esta presente o no en un elemento en un conjunto
+is_presente = bool('banana' in thisset)
+# Conocer el tipos de dato
+print(type(is_presente))
+
+# Aplicar el uso de un operador ternario
+is_presente = "SI" if is_presente else 'NO'
+print(type(is_presente))
+print(f"Esta presente banana en el conjunto? {is_presente}")
+
 
 # Operaciones con conjuntos
 this_is_set_countries = {"Col", "Pe", "Argentina"}
